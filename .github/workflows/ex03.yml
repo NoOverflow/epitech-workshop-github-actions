@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     
     # The type of runner that the job will run on
-    container: alpine:10.1
+    container: alpine:latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     
     # The type of runner that the job will run on
-    container: archlinux:10.1
+    container: archlinux:latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     
     # The type of runner that the job will run on
-    container: fedora:10.1
+    container: fedora:latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
