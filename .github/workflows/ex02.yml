@@ -46,4 +46,4 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Display Version
-      run: (Get-WmiObject win32_operatingsystem).version
+      run: (Get-ComputerInfo).OsVersion
